@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+.app {
+    .app_title {
+        font-family: 'Passion One', sans-serif;
+        margin: 1.5em auto 0.5em;
+        font-size: 6em;
+        font-weight: 900;
+        text-align: center;
+        width: 60%;
+        color: #333333;
+    }
+}
+
+@media (max-width: 768px) {
+    .app {
+        .app_title {
+            font-family: 'Passion One', sans-serif;
+            margin: 1.5em auto 0.5em;
+            font-size: 2em;
+            font-weight: 900;
+            text-align: center;
+            width: 60%;
+            color: #333333;
+        }
+    }
+}

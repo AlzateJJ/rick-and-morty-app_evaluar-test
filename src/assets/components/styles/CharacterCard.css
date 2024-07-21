@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Passion+One:wght@400;700;900&display=swap');
+
+.characters_wrapper {
+    display: flex;
+    gap: 1.3em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+
+    .character__card {
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        /* aspect-ratio: 100 / 86; */
+        /* height: 8rem; */
+        background-color: #FFFFFF;
+        border-radius: 1.5rem;
+        box-shadow: 0 2px 20px #d9d9d92a;
+        padding: 0.3rem;
+
+        .character__img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 1.2rem;
+            overflow: hidden;
+
+            width: 100%;
+            height: 65%;
+    
+            .character__img {
+                width: 100%;
+                height: auto;
+            }
+        }
+          
+        .character__info-section {
+            height: 30%;
+            padding: 0.3em;
+            
+            .character__info {
+                font-family: 'Manrope', serif;
+                color: #3E3C3C;
+                font-weight: 600;
+                font-size: 0.9em;
+                margin: 0.3em 0;
+            }
+            .character__info-label {
+                font-family: 'Manrope', serif;
+                color: #ABABAB;
+                font-weight: 100;
+                font-size: 0.9em;
+                margin: 0.3em 0;
+            }
+        }  
+    }
+    .noResults__msg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+        .noResults__msg-title {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin: 0.5em 0;
+        }
+    }
+    
+}
